@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mechanicals",
+      "handler": "mechanical.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mechanicals/count",
+      "handler": "mechanical.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mechanicals/:id",
+      "handler": "mechanical.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mechanicals",
+      "handler": "mechanical.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mechanicals/:id",
+      "handler": "mechanical.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mechanicals/:id",
+      "handler": "mechanical.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

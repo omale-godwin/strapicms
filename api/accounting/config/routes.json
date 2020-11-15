@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/accountings",
+      "handler": "accounting.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/accountings/count",
+      "handler": "accounting.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/accountings/:id",
+      "handler": "accounting.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/accountings",
+      "handler": "accounting.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/accountings/:id",
+      "handler": "accounting.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/accountings/:id",
+      "handler": "accounting.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
